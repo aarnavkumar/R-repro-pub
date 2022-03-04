@@ -10,7 +10,7 @@ bibliography: references.bib
 
 Citation to original version of this data article:
 
-Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. *Data in brief*, *37*, 107245. <https://doi.org/10.1016/j.dib.2021.107245> (**FIXME2**)
+Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. *Data in brief*, *37*, 107245. <https://doi.org/10.1016/j.dib.2021.107245>
 
 **Abstract**
 
@@ -117,7 +117,7 @@ File: root/data/bronars_simulation_data.csv (\_raw data\_)
 
 `r bronars_simulation_data <- read.csv("../../data/bronars_simulation_data.csv")`
 
-The CSV file contains choice consistency data for `r nrow(bronars_simulation_data)` 10.000 simulated participants, that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged `r mean(bronars_simulation_data$violation_count)`. Simulated participants solved one measurement (11 trials) of the food-choice task (see Experimental Design, Materials & Methods). Simulated choices were uniform-random among the choice sets. Column 1 and 2 ("filename", "VP") are redundant and contain the participant IDs. Column 3 ("Session") indicates the number of measurements (always 1 here). Column 4 ("violation_count") indicates the number of trials involved in a revealed preference inconsistency [see 2]. Column 5 ("AI") contains the critical cost efficiency index @nitsch2020a; ,@afriat1972. Column 6 ("mean_RT") contains the mean reaction times (arbitrary). Typically, users of the data will only use the information in column 4 and 5 ("violation_count", "AI").
+The CSV file contains choice consistency data for `r nrow(bronars_simulation_data)` simulated participants, that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged `r mean(bronars_simulation_data$violation_count)`. Simulated participants solved one measurement (11 trials) of the food-choice task (see Experimental Design, Materials & Methods). Simulated choices were uniform-random among the choice sets. Column 1 and 2 ("filename", "VP") are redundant and contain the participant IDs. Column 3 ("Session") indicates the number of measurements (always 1 here). Column 4 ("violation_count") indicates the number of trials involved in a revealed preference inconsistency [see 2]. Column 5 ("AI") contains the critical cost efficiency index @nitsch2020a; ,@afriat1972. Column 6 ("mean_RT") contains the mean reaction times (arbitrary). Typically, users of the data will only use the information in column 4 and 5 ("violation_count", "AI").
 
 File: root/data/foodchoice_data/CC-\$VPN\_\$Measurement_data.csv (\_raw data\_)
 
